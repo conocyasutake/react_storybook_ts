@@ -11,5 +11,5 @@ export default {
   component: BaseButton,
 };
 
-// ここでエクスポートされたものがコンポートでみれる
-export const Sample1 = () => <BaseButton label="テキスト" onClick={() => {}}/>;
+// ここでエクスポートされたものがstorybookに表示される
+export const Sample1 = () => <BaseButton label="ボタン" onClick={() => {}}/>;
