@@ -9,10 +9,7 @@ type TProps = {
 // labelとonClickを受け取る
 export const BaseButton: React.FC<TProps> = (props: TProps) => {
 
-  const {
-    label,
-    onClick,
-  } = props;
+  const { label, onClick } = props;
 
   return (
     <button 

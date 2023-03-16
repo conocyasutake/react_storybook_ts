@@ -9,7 +9,7 @@ export default {
 } as ComponentMeta<typeof SubButton>;
 
 // テンプレートを作成
-const Template:ComponentStory<typeof SubButton> = (args) => <SubButton {...args} />;
+const Template: ComponentStory<typeof SubButton> = (args) => <SubButton {...args} />;
 
 // 作ったテンプレートから複製し、propsを指定
 export const Default = Template.bind({});

@@ -7,10 +7,7 @@ type TProps = {
 
 export const SubButton: React.FC<TProps> = (props: TProps) => {
 
-  const {
-    label,
-    onClick,
-  } = props;
+  const { label, onClick } = props;
 
   return (
     <button 
